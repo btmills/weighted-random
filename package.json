@@ -1,0 +1,26 @@
+{
+  "name": "weighted-random",
+  "version": "0.0.0",
+  "description": "Select randomly from a list of weighted values",
+  "license": "MIT",
+  "author": {
+    "name": "Brandon Mills",
+    "url": "(https://github.com/btmills)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btmills/weighted-random.git"
+  },
+  "bugs": {
+    "url": "https://github.com/btmills/weighted-random/issues"
+  },
+  "homepage": "https://github.com/btmills/weighted-random#readme",
+  "keywords": [
+    "weighted",
+    "random"
+  ],
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "main": "index.js"
+}
