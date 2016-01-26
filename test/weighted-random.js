@@ -1,3 +1,5 @@
+'use strict';
+
 var assert = require('chai').assert;
 var weightedRandom = require('../lib/weighted-random');
 
@@ -66,6 +68,7 @@ describe('weighted-random', function () {
 	it('should not mutate weights', function () {
 		var weights = randomWeights(10);
 		var copy = weights.slice();
+
 		weightedRandom(weights);
 		assert.sameMembers(weights, copy);
 	});
