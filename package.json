@@ -1,16 +1,13 @@
 {
   "name": "weighted-random",
   "version": "0.0.0",
-  "description": "Select randomly from a list of weighted values",
+  "description": "Select randomly from a list of weighted values.",
   "license": "MIT",
   "author": {
     "name": "Brandon Mills",
-    "url": "(https://github.com/btmills)"
+    "url": "https://github.com/btmills"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/btmills/weighted-random.git"
-  },
+  "repository": "btmills/weighted-random",
   "bugs": {
     "url": "https://github.com/btmills/weighted-random/issues"
   },
@@ -23,6 +20,9 @@
     "test": "eslint . && mocha"
   },
   "main": "lib/weighted-random.js",
+  "files": [
+    "lib/*.js"
+  ],
   "devDependencies": {
     "@btmills/eslint-config-btmills": "^0.1.2",
     "chai": "^3.4.1",
